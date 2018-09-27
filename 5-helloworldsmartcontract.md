@@ -1,5 +1,18 @@
 # hello.cpp
 
+- General Structure
+
+```
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	cout << "hello world" << endl;
+}
+```
+
+
 ```
 #include <eosiolib/eosio.hpp>
 #include <eosiolib/print.hpp>
