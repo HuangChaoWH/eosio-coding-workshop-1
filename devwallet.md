@@ -1,4 +1,4 @@
-# Create Development Wallet
+# 1. Create Development Wallet
 
 ```
 cleos wallet create --to-console
@@ -12,7 +12,7 @@ Without password imported keys will not be retrievable.
 "PW5Kewn9L76X8Fpd....................t42S9XCw2"
 ```
 
-# Open the wallet
+# 2. Open the wallet
 ```
 cleos wallet open
 cleos wallet list
@@ -25,13 +25,13 @@ Wallets:
 ]
 ```
 
-# Unlock wallet
+# 3. Unlock wallet
 ```
 cleos wallet unlock
 cleos wallet list
 ```
 
-# Import keys
+# 4. Import keys
 
 ```
 cleos wallet create_key
@@ -42,7 +42,7 @@ cleos wallet create_key
 Created new private key with a public key of: "EOS8PEJ5FM42xLpHK...X6PymQu97KrGDJQY5Y"
 ```
 
-# Import the Development Key
+# 5.Import the Development Key
 
 ```
 cleos wallet import
